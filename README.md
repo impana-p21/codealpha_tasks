@@ -1,107 +1,163 @@
 # codealpha_tasks
-CodeAlpha Cyber Security Internship Tasks
+CodeAlpha Cyber Security Internship
 
-Overview
+This repository contains the projects and practical tasks completed as part of my Cyber Security Internship at CodeAlpha.
 
-This repository contains the cybersecurity projects completed as part of the CodeAlpha Cyber Security Internship.
+The internship provided hands-on exposure to cybersecurity concepts, secure programming, network analysis, phishing awareness, and intrusion detection.
 
-The projects provide practical exposure to network security, packet analysis, secure coding, vulnerability identification, and security best practices.
+Internship Details
 
-Completed Tasks
+Details	Information
+Organization	CodeAlpha
+Domain	Cyber Security
+Internship Duration	1st August 2026 – 30th August 2026
+Student ID	CA/DF1/224393
+Name	Impana P
+
+Tasks Completed
 
 Task 1 — Basic Network Sniffer
 
-A Python-based network packet sniffer developed using the Scapy library.
+Developed a Python-based network sniffer to capture and analyze network packets.
 
-The program captures network packets and displays useful information including:
+Key Concepts:
 
-* Source IP address
-* Destination IP address
-* Network protocol
-* Source port
-* Destination port
-* Available packet payload information
+* Packet capturing
+* Source and destination IP addresses
+* Network protocols
+* Packet structure
+* Payload analysis
+* Network traffic monitoring
 
-Project Folder:
+Technologies: Python, Scapy
 
-Task_1_Basic_Network_Sniffer
+Folder: Task_1_Basic_Network_Sniffer
+
+⸻
+
+Task 2 — Phishing Awareness Training
+
+Created a phishing awareness training module to educate users about phishing attacks and social engineering techniques.
+
+Key Concepts:
+
+* Email phishing
+* Spear phishing
+* Smishing
+* Vishing
+* Fake websites
+* Social engineering
+* Phishing warning signs
+* Prevention techniques
+* Interactive awareness quiz
+
+Technologies: Python, Markdown
+
+Folder: Task_2_Phishing_Awareness
+
+⸻
 
 Task 3 — Secure Coding Review
 
-A security review of a simple Python login application.
+Performed a security-focused code review to identify vulnerabilities and recommend secure coding practices.
 
-The project identifies common security vulnerabilities and demonstrates how they can be addressed using secure coding practices.
+Key Concepts:
 
-The review covers:
+* Code security review
+* Vulnerability identification
+* Secure coding practices
+* Input validation
+* Authentication and authorization
+* Vulnerability remediation
+* Security recommendations
 
-* SQL Injection
-* Insecure password handling
-* Missing input validation
-* Parameterized SQL queries
-* Password hashing
-* Secure coding recommendations
+Technologies: Python, Static Analysis, Manual Code Review
 
-Project Folder:
+Folder: Task_3_Secure_Coding_Review
 
-Task_3_Secure_Coding_Review
+⸻
+
+Task 4 — Network Intrusion Detection System
+
+Developed a basic Network Intrusion Detection System to analyze network traffic and identify suspicious activity.
+
+Key Concepts:
+
+* Network traffic monitoring
+* Suspicious port detection
+* Failed login detection
+* Brute-force detection
+* High traffic detection
+* ICMP anomaly detection
+* Security alerts
+* Incident response recommendations
+
+Technologies: Python, CSV, File Handling
+
+Folder: Task_4_Network_Intrusion_Detection
+
+⸻
+
+Technologies and Tools
+
+* Python
+* Scapy
+* CSV
+* Static Code Analysis
+* Network Security
+* Secure Coding
+* Git
+* GitHub
+
+Learning Outcomes
+
+Through these tasks, I gained practical exposure to:
+
+* Network packet analysis
+* Cybersecurity fundamentals
+* Phishing and social engineering awareness
+* Secure coding principles
+* Vulnerability identification and remediation
+* Network intrusion detection
+* Security monitoring and alert generation
+* Basic incident response
+* Python-based cybersecurity tools
 
 Repository Structure
 
-codealpha_tasks/
+CodeAlpha-Cyber-Security/
 │
 ├── Task_1_Basic_Network_Sniffer/
-│   ├── network_sniffer.py
-│   ├── requirements.txt
+│   ├── ...
+│   └── README.md
+│
+├── Task_2_Phishing_Awareness/
+│   ├── phishing_awareness.py
+│   ├── phishing_awareness_report.md
 │   └── README.md
 │
 ├── Task_3_Secure_Coding_Review/
-│   ├── vulnerable_app.py
-│   ├── secure_app.py
-│   ├── security_report.md
+│   ├── ...
+│   └── README.md
+│
+├── Task_4_Network_Intrusion_Detection/
+│   ├── intrusion_detection.py
+│   ├── sample_network_traffic.csv
+│   ├── intrusion_detection_report.md
 │   └── README.md
 │
 └── README.md
 
-Technologies Used
+Internship Experience
 
-* Python
-* Scapy
-* SQLite
-* TCP/IP Networking
-* Secure Coding Principles
-* OWASP Security Concepts
+This internship helped me bridge the gap between theoretical cybersecurity concepts and practical implementation.
 
-Key Learning Outcomes
+Working on different tasks allowed me to understand how cybersecurity techniques can be applied to analyze network activity, identify threats, improve software security, and promote safer digital practices.
 
-Through these projects, I gained practical understanding of:
+I look forward to continuing to develop my skills in Cyber Security, Ethical Hacking, Network Security, and Secure Software Development.
 
-* Network packet capture and analysis.
-* TCP, UDP, and ICMP protocols.
-* IP addresses and network ports.
-* Basic network security concepts.
-* Common application security vulnerabilities.
-* SQL injection prevention.
-* Secure database queries.
-* Password security.
-* Input validation.
-* Secure coding practices.
+Author
 
-Ethical Use
+Impana P
 
-These projects are created for educational and authorized cybersecurity purposes only.
-
-Network traffic should only be captured on systems and networks for which permission has been obtained.
-
-The intentionally vulnerable code in the Secure Coding Review project is provided only for security education and should not be deployed as a production application.
-
-Internship
-
-CodeAlpha — Cyber Security Internship
-
-This repository contains the completed tasks submitted as part of the internship program.
-
-Conclusion
-
-The projects provided hands-on experience with both network-level and application-level cybersecurity concepts.
-
-The Basic Network Sniffer demonstrates network traffic analysis, while the Secure Coding Review demonstrates how vulnerabilities can be identified and addressed through secure development practices.
+Cyber Security Intern — CodeAlpha
